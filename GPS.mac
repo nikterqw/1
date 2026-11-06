@@ -1,8 +1,6 @@
 # GPS.mac
 # Первичный пучок 80 кэВ сбоку, фокус на металлическую сферу (0,0,-5) см.
 
-/run/initialize
-
 /gps/source/clear
 /gps/source/add 1
 /gps/particle gamma
