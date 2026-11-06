@@ -29,10 +29,9 @@ B1PrimaryGeneratorAction::B1PrimaryGeneratorAction()
   source->GetPosDist()->SetPosDisType("Point");
   source->GetPosDist()->SetCentreCoords(G4ThreeVector(5.0 * cm, 0, -5.0 * cm));
 
-  // Фокус на центр сферы. Важно: сначала задаём тип "focus", затем точку и угол.
+  // Фокус на центр сферы. Угол разлета (5 градусов) задается ТОЛЬКО в GPS.mac!
   source->GetAngDist()->SetAngDistType("focus");
   source->GetAngDist()->SetFocusPoint(G4ThreeVector(0, 0, -5.0 * cm));
-  source->GetAngDist()->SetFocusAngle(5.0 * deg); // Узкий конус
 }
 
 B1PrimaryGeneratorAction::~B1PrimaryGeneratorAction()
