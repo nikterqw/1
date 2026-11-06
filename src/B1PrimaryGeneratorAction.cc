@@ -1,6 +1,6 @@
 /*
   ФАЙЛ: B1PrimaryGeneratorAction.cc
-  Изменения: энергия пучка 80 кэВ для возбуждения K-линий вольфрама (Kα ~59.3 кэВ).
+  Изменения: энергия пучка 80 кэВ, тип углового распределения "focus" для надёжного нацеливания.
 */
 
 #include "B1PrimaryGeneratorAction.hh"
@@ -29,8 +29,8 @@ B1PrimaryGeneratorAction::B1PrimaryGeneratorAction()
   source->GetPosDist()->SetPosDisType("Point");
   source->GetPosDist()->SetCentreCoords(G4ThreeVector(5.0 * cm, 0, -5.0 * cm));
 
-  // Фокус на центр сферы
-  source->GetAngDist()->SetAngDistType("iso");
+  // Фокус на центр сферы. Важно: сначала задаём тип "focus", затем точку и угол.
+  source->GetAngDist()->SetAngDistType("focus");
   source->GetAngDist()->SetFocusPoint(G4ThreeVector(0, 0, -5.0 * cm));
   source->GetAngDist()->SetFocusAngle(5.0 * deg); // Узкий конус
 }
