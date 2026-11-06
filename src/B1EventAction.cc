@@ -57,7 +57,7 @@ void B1EventAction::EndOfEventAction(const G4Event* event)
     circle.SetFillStyle(G4Circle::filled);
     G4VisAttributes att(G4Colour(1.0, 1.0, 0.0));
     circle.SetVisAttributes(att);
-    vis->Draw(circle);
+    vis->Draw(circle); // Передача по значению/ссылке
   }
 
   // Траектории
@@ -68,17 +68,21 @@ void B1EventAction::EndOfEventAction(const G4Event* event)
     auto* traj = (*trajectories)[i];
     if (!traj) continue;
 
-    const auto* points = traj->GetPoint();
-    if (!points || points->size() < 2) continue;
+    // В Geant4 11+ GetPoint() требует индекс
+    const G4int nPoints = traj->GetPointEntries();
+    if (nPoints < 2) continue;
 
-    auto* polyline = new G4Polyline();
-    for (const auto& p : *points) {
-      polyline->push_back(G4Point3D(p->GetPosition()));
+    G4Polyline polyline;
+    for (G4int j = 0; j < nPoints; ++j) {
+      const auto* p = traj->GetPoint(j);
+      if (p) {
+        polyline.push_back(G4Point3D(p->GetPosition()));
+      }
     }
 
-    G4VisAttributes* trajVis = new G4VisAttributes(G4Colour(0.0, 1.0, 0.0));
-    trajVis->SetForceSolid(true);
-    polyline->SetVisAttributes(trajVis);
-    vis->Draw(polyline);
+    G4VisAttributes trajVis(G4Colour(0.0, 1.0, 0.0));
+    trajVis.SetForceSolid(true);
+    polyline.SetVisAttributes(trajVis);
+    vis->Draw(polyline); // Передача по значению/ссылке
   }
 }
