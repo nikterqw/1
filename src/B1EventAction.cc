@@ -3,10 +3,10 @@
 
   Рисует первичные вершины и траектории вторичных частиц
   для первых SPECT_SOURCE_SAMPLE событий.
+  Адаптировано под Geant4 11.x.
 */
 
 #include "B1EventAction.hh"
-
 #include "B1RunAction.hh"
 
 #include "G4Event.hh"
@@ -48,19 +48,19 @@ void B1EventAction::EndOfEventAction(const G4Event* event)
   auto* vis = G4VVisManager::GetConcreteInstance();
   if (!vis) return;
 
-  // Точки первичных вершин
+  // 1. Рисуем точку первичной вершины
   const auto* vtx = event->GetPrimaryVertex();
   if (vtx) {
     const auto pos = vtx->GetPosition();
     G4Circle circle(G4Point3D(pos.x(), pos.y(), pos.z()));
-    circle.SetScreenSize(3.0);
+    circle.SetScreenSize(4.0);
     circle.SetFillStyle(G4Circle::filled);
-    G4VisAttributes att(G4Colour(1.0, 1.0, 0.0));
+    G4VisAttributes att(G4Colour(1.0, 1.0, 0.0)); // Желтый
     circle.SetVisAttributes(att);
-    vis->Draw(circle); // Передача по значению/ссылке
+    vis->Draw(circle); 
   }
 
-  // Траектории
+  // 2. Рисуем траектории
   auto* trajectories = event->GetTrajectoryContainer();
   if (!trajectories) return;
 
@@ -68,21 +68,23 @@ void B1EventAction::EndOfEventAction(const G4Event* event)
     auto* traj = (*trajectories)[i];
     if (!traj) continue;
 
-    // В Geant4 11+ GetPoint() требует индекс
+    // В Geant4 11+ используется GetPointEntries() и GetPoint(G4int)
     const G4int nPoints = traj->GetPointEntries();
     if (nPoints < 2) continue;
 
-    G4Polyline polyline;
+    auto* polyline = new G4Polyline();
     for (G4int j = 0; j < nPoints; ++j) {
       const auto* p = traj->GetPoint(j);
       if (p) {
-        polyline.push_back(G4Point3D(p->GetPosition()));
+        polyline->push_back(G4Point3D(p->GetPosition()));
       }
     }
 
-    G4VisAttributes trajVis(G4Colour(0.0, 1.0, 0.0));
+    G4VisAttributes trajVis(G4Colour(0.0, 1.0, 0.0)); // Зеленый
     trajVis.SetForceSolid(true);
-    polyline.SetVisAttributes(trajVis);
-    vis->Draw(polyline); // Передача по значению/ссылке
+    polyline->SetVisAttributes(trajVis);
+    
+    // В Geant4 11.4 Draw принимает по константной ссылке, либо указатель разыменовывается
+    vis->Draw(*polyline); 
   }
 }
