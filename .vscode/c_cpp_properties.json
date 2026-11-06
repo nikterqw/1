@@ -1,0 +1,18 @@
+{
+    "configurations": [
+        {
+            "name": "Linux",
+            "includePath": [
+                "/home/neovp/soft/geant4/geant4-v11.4.0/examples/basic/3000_iteration/include",
+                "/home/neovp/soft/geant4/geant4-v11.4.0/examples/basic/3000_iteration/src",
+                "/home/neovp/soft/geant4/install/include/Geant4"
+            ],
+            "defines": [],
+            "compilerPath": "/usr/bin/gcc-12",
+            "cStandard": "c17",
+            "cppStandard": "c++14",
+            "intelliSenseMode": "linux-clang-x64"
+        }
+    ],
+    "version": 4
+}
