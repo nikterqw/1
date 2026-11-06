@@ -2,7 +2,8 @@
   ФАЙЛ: TimepixDetector.cc
 
   Реализация TimepixDetector: обработка hits, расчёт индекса пикселя, суммирование
-энергии, порог (по умолчанию 6 keV, настраивается), кластеризация связных компонентов и запись в ROOT/CLOG.
+  энергии, порог (по умолчанию 6 keV, настраивается), кластеризация связных
+  компонентов и запись в ROOT/CLOG.
 */
 
 #include "TimepixDetector.hh"
@@ -65,10 +66,10 @@ G4bool TimepixDetector::ProcessHits(G4Step* step, G4TouchableHistory*)
   const auto posGlobal = pre->GetPosition();
 
   // global -> local (sensor coords)
+  // ВАЖНО: GetTopTransform() возвращает преобразование из глобальных
+  // координат в локальные. Инвертировать его не нужно.
   const auto touch = pre->GetTouchableHandle();
-  const G4AffineTransform& toGlobal = touch->GetHistory()->GetTopTransform();
-  const G4AffineTransform toLocal = toGlobal.Inverse();
-  const auto posLocal = toLocal.TransformPoint(posGlobal);
+  const auto posLocal = touch->GetHistory()->GetTopTransform().TransformPoint(posGlobal);
 
   auto* hit = new TimepixHit();
   hit->SetLocalX(posLocal.x());
