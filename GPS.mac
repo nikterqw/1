@@ -11,9 +11,9 @@
 /gps/ene/mono 80.0 keV
 
 /gps/pos/type Point
-/gps/pos/centre 3.5355 0.0 -1.4645 cm
+/gps/pos/centre -5.0 0.0 -5.0 cm
 
-/gps/ang/type focus
+/gps/ang/type focused
 /gps/ang/focuspoint 0.0 0.0 -5.0 cm
 /gps/ang/mintheta 0 deg
-/gps/ang/maxtheta 5 deg
+/gps/ang/maxtheta 15 deg
