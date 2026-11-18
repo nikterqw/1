@@ -4,11 +4,12 @@
 """
 run_metal.py (адаптированный)
 Запускает exampleB1, затем забирает готовый imageN.txt и imageE.txt из рабочей папки.
+Параметры металла: пластина W 10x10x1 мм, повёрнутая на 45° вокруг Y,
+центр (0,0,-5) см; источник (3.5355, 0, -1.4645) см; пучок 80 кэВ.
 """
 
 import os
 import subprocess
-import time
 import shutil
 from pathlib import Path
 
@@ -20,7 +21,7 @@ import matplotlib.pyplot as plt
 # =========================
 EXE = Path("./exampleB1")
 RUN_MAC = Path("./run.mac")
-OUT_DIR = Path("runs_metal_W")
+OUT_DIR = Path("runs_metal_W_plate45")
 
 N_RUNS = 1
 BASE_SEED = 0
@@ -31,7 +32,8 @@ def load_matrix_256(path: Path) -> np.ndarray:
     with path.open("r", encoding="utf-8") as f:
         for line in f:
             line = line.strip()
-            if not line: continue
+            if not line:
+                continue
             rows.append([float(x) for x in line.split()])
     arr = np.array(rows, dtype=float)
     if arr.shape != (256, 256):
@@ -47,9 +49,7 @@ def save_png_from_matrix(mat: np.ndarray, png_path: Path) -> None:
     plt.close()
 
 def run_one(exe: Path, run_mac: Path, workdir: Path, log_path: Path, env: dict) -> int:
-    # Мы больше не передаем --image-txt, чтобы не путать программу
     cmd = [str(exe.resolve()), str(run_mac.resolve())]
-    
     with log_path.open("w", encoding="utf-8") as f:
         f.write("CMD: " + " ".join(cmd) + "\n")
         f.write("CWD: " + str(workdir) + "\n")
@@ -62,8 +62,10 @@ def main() -> None:
     exe = (workdir / EXE).resolve()
     run_mac = (workdir / RUN_MAC).resolve()
 
-    if not exe.exists(): raise FileNotFoundError(f"Executable not found: {exe}")
-    if not run_mac.exists(): raise FileNotFoundError(f"run.mac not found: {run_mac}")
+    if not exe.exists():
+        raise FileNotFoundError(f"Executable not found: {exe}")
+    if not run_mac.exists():
+        raise FileNotFoundError(f"run.mac not found: {run_mac}")
 
     OUT_DIR.mkdir(parents=True, exist_ok=True)
     info_path = OUT_DIR / "info.txt"
@@ -84,27 +86,30 @@ def main() -> None:
             if rc != 0:
                 raise RuntimeError(f"Run {i} failed (rc={rc}). See {log_path}")
 
-            # Ищем, куда Geant4 сохранил файлы
             src_txt = workdir / "imageN.txt"
-            src_png_txt = workdir / "imageE.txt"
-            
+            src_e_txt = workdir / "imageE.txt"
+
             if not src_txt.exists():
                 raise RuntimeError(f"imageN.txt not found in {workdir}. Check {log_path}")
 
-            # Копируем результаты в нашу папку
             dst_txt = OUT_DIR / f"imageN_{i:06d}.txt"
             shutil.copy(src_txt, dst_txt)
-            
-            if src_png_txt.exists():
-                dst_e_txt = OUT_DIR / f"imageE_{i:06d}.txt"
-                shutil.copy(src_png_txt, dst_e_txt)
 
-            # Делаем PNG
+            if src_e_txt.exists():
+                dst_e_txt = OUT_DIR / f"imageE_{i:06d}.txt"
+                shutil.copy(src_e_txt, dst_e_txt)
+
             mat = load_matrix_256(dst_txt)
             dst_png = OUT_DIR / f"imageN_{i:06d}.png"
             save_png_from_matrix(mat, dst_png)
 
-            info.write(f"{i}\tseed={seed_run}\tmetal=W\tradius=2mm\tpos=(0,0,-5)cm\tbeam=80keV\n")
+            info.write(
+                f"{i}\tseed={seed_run}"
+                f"\tmetal=W\tplate=10x10x1mm\tangle=45deg"
+                f"\tpos=(0,0,-5)cm"
+                f"\ttube=(3.5355,0,-1.4645)cm"
+                f"\tbeam=80keV\n"
+            )
             info.flush()
 
     print(f"OK. Saved to: {OUT_DIR}", flush=True)
