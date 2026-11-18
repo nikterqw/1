@@ -1,6 +1,7 @@
 /*
   ФАЙЛ: B1PrimaryGeneratorAction.cc
-  Изменения: энергия пучка 80 кэВ, тип углового распределения "focus" для надёжного нацеливания.
+  Изменения: убрано дублирование настроек GPS. Все параметры источника
+  задаются в GPS.mac. Здесь только создаётся GPS и выбирается частица gamma.
 */
 
 #include "B1PrimaryGeneratorAction.hh"
@@ -19,19 +20,6 @@ B1PrimaryGeneratorAction::B1PrimaryGeneratorAction()
   if (particle) {
     fGeneralParticleSource->SetParticleDefinition(particle);
   }
-
-  auto* source = fGeneralParticleSource->GetCurrentSource();
-
-  // 80 кэВ > K-edge W (69.5 кэВ)
-  source->GetEneDist()->SetMonoEnergy(80.0 * keV);
-
-  // Трубка сбоку (x=5 см, z=-5 см)
-  source->GetPosDist()->SetPosDisType("Point");
-  source->GetPosDist()->SetCentreCoords(G4ThreeVector(5.0 * cm, 0, -5.0 * cm));
-
-  // Фокус на центр сферы. Угол разлета (5 градусов) задается ТОЛЬКО в GPS.mac!
-  source->GetAngDist()->SetAngDistType("focus");
-  source->GetAngDist()->SetFocusPoint(G4ThreeVector(0, 0, -5.0 * cm));
 }
 
 B1PrimaryGeneratorAction::~B1PrimaryGeneratorAction()
