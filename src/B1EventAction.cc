@@ -80,7 +80,16 @@ void B1EventAction::EndOfEventAction(const G4Event* event)
       }
     }
 
-    G4VisAttributes trajVis(G4Colour(0.0, 1.0, 0.0)); // Зеленый
+    //G4VisAttributes trajVis(G4Colour(0.0, 1.0, 0.0)); // Зеленый
+    //trajVis.SetForceSolid(true);
+    //polyline->SetVisAttributes(trajVis);
+
+
+    // Первичный трек (TrackID == 1) — синий, вторичные — зелёный
+    G4Colour col = (traj->GetTrackID() == 1)
+                 ? G4Colour(0.0, 0.0, 1.0)  // синий
+                 : G4Colour(0.0, 1.0, 0.0); // зелёный
+    G4VisAttributes trajVis(col);
     trajVis.SetForceSolid(true);
     polyline->SetVisAttributes(trajVis);
     
