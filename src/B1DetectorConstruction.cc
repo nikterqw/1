@@ -1,6 +1,7 @@
 /*
   ФАЙЛ: B1DetectorConstruction.cc
-  Изменения: сфера из вольфрама (W), визуализация, удален лишний SD.
+  Изменения: металл — плоская пластина W 10x10x1 мм, повёрнутая на 45° вокруг оси Y,
+  центр (0,0,-5) см. Маска и детектор без изменений.
 */
 
 #include "B1DetectorConstruction.hh"
@@ -12,10 +13,10 @@
 #include "G4SystemOfUnits.hh"
 #include "G4Tubs.hh"
 #include "G4Box.hh"
-#include "G4Sphere.hh"
 #include "G4LogicalVolume.hh"
 #include "G4VisAttributes.hh"
 #include "G4Colour.hh"
+#include "G4RotationMatrix.hh"
 
 #include "TimepixDetector.hh"
 
@@ -89,7 +90,7 @@ G4VPhysicalVolume* B1DetectorConstruction::Construct()
 
   const G4double mask_outer_radius = 2.203869 * cm;
   const G4double mask_inner_radius = 0.0 * cm;
-  const G4double mask_thickness    = 2.0 * mm; // Оставил 2 мм для лучшего поглощения 60 кэВ
+  const G4double mask_thickness    = 2.0 * mm;
 
   auto* solidMask = new G4Tubs("sMask",
                               mask_inner_radius,
@@ -99,7 +100,7 @@ G4VPhysicalVolume* B1DetectorConstruction::Construct()
                               360.0 * deg);
 
   auto* logicMask = new G4LogicalVolume(solidMask, mask_mat, "lMask");
-  G4VisAttributes* maskVis = new G4VisAttributes(G4Colour(0.5, 0.5, 0.5, 0.5)); // серый, полупрозрачный
+  G4VisAttributes* maskVis = new G4VisAttributes(G4Colour(0.5, 0.5, 0.5, 0.5));
   maskVis->SetVisibility(true);
   logicMask->SetVisAttributes(maskVis);
 
@@ -116,7 +117,7 @@ G4VPhysicalVolume* B1DetectorConstruction::Construct()
 
   auto* solidHole = new G4Tubs("sHole", hole_inner_radius, hole_outer_radius, hole_thickness * 0.5, 0.0 * deg, 360.0 * deg);
   auto* logicHole = new G4LogicalVolume(solidHole, hole_mat, "lHole");
-  G4VisAttributes* holeVis = new G4VisAttributes(G4Colour(1.0, 1.0, 1.0, 0.0)); // невидимый
+  G4VisAttributes* holeVis = new G4VisAttributes(G4Colour(1.0, 1.0, 1.0, 0.0));
   logicHole->SetVisAttributes(holeVis);
 
   constexpr G4double kMaskRotationZ = 0.0;
@@ -142,8 +143,8 @@ G4VPhysicalVolume* B1DetectorConstruction::Construct()
 
   auto* solidTimepix = new G4Box("sTimepix", timepix_width * 0.5, timepix_width * 0.5, timepix_thickness * 0.5);
   auto* logicTimepix = new G4LogicalVolume(solidTimepix, timepix_mat, "lTimepix");
-  
-  G4VisAttributes* timepixVis = new G4VisAttributes(G4Colour(0.0, 0.0, 1.0, 0.5)); // синий, полупрозрачный
+
+  G4VisAttributes* timepixVis = new G4VisAttributes(G4Colour(0.0, 0.0, 1.0, 0.5));
   timepixVis->SetVisibility(true);
   logicTimepix->SetVisAttributes(timepixVis);
 
@@ -151,21 +152,29 @@ G4VPhysicalVolume* B1DetectorConstruction::Construct()
   fLogicTimepix = logicTimepix;
 
   // -----------------------------
-  // Metal Sphere (Tungsten)
+  // Metal plate (Tungsten), 10x10x1 mm, rotated 45 deg around Y,
+  // centre at (0,0,-5) cm
   // -----------------------------
-  auto* metal_mat = nist->FindOrBuildMaterial("G4_W"); // Вольфрам
-  const G4ThreeVector metal_pos(0, 0, -5.0 * cm); // 5 см перед маской
-  const G4double metal_radius = 2.0 * mm;
+  auto* metal_mat = nist->FindOrBuildMaterial("G4_W");
+  const G4ThreeVector metal_pos(0, 0, -5.0 * cm);
 
-  auto* solidMetal = new G4Sphere("sMetal", 0.0, metal_radius, 0.0 * deg, 360.0 * deg, 0.0 * deg, 180.0 * deg);
+  const G4double metal_halfX = 5.0 * mm;  // 10 mm width
+  const G4double metal_halfY = 5.0 * mm;  // 10 mm height
+  const G4double metal_halfZ = 0.05 * mm;  // 1 mm thickness
+
+  auto* solidMetal = new G4Box("sMetal", metal_halfX, metal_halfY, metal_halfZ);
   auto* logicMetal = new G4LogicalVolume(solidMetal, metal_mat, "lMetal");
-  
-  G4VisAttributes* metalVis = new G4VisAttributes(G4Colour(1.0, 0.0, 0.0)); // красный
+
+  G4VisAttributes* metalVis = new G4VisAttributes(G4Colour(1.0, 0.0, 0.0));
   metalVis->SetVisibility(true);
   metalVis->SetForceSolid(true);
   logicMetal->SetVisAttributes(metalVis);
 
-  (void)new G4PVPlacement(nullptr, metal_pos, logicMetal, "pMetal", logicWorld, false, 0, checkOverlaps);
+  auto* metalRot = new G4RotationMatrix();
+  metalRot->rotateY(20.0 * deg);
+
+  (void)new G4PVPlacement(metalRot, metal_pos, logicMetal, "pMetal",
+                          logicWorld, false, 0, checkOverlaps);
 
   return physWorld;
 }
@@ -174,7 +183,6 @@ void B1DetectorConstruction::ConstructSDandField()
 {
   auto* sdm = G4SDManager::GetSDMpointer();
 
-  // Только детектор Timepix! Лишний SD для металла убран.
   auto* timepixSD = new TimepixDetector("Timepix1");
   sdm->AddNewDetector(timepixSD);
   if (fLogicTimepix) {

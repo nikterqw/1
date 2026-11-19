@@ -1,11 +1,4 @@
-# run_vis.mac
-/control/execute GPS.mac
+# run.mac (batch)
 /run/initialize
-
-/vis/open OGL
-/vis/drawVolume
-/vis/scene/add/trajectories smooth
-/vis/scene/endOfEventAction accumulate
-/vis/viewer/set/style surface
-
-/run/beamOn 10
+/control/execute GPS.mac
+/run/beamOn 100000000
