@@ -1,0 +1,2747 @@
+CMD: /home/neovp/soft/geant4/geant4-v11.4.0/examples/basic/metall2/build/exampleB1 /home/neovp/soft/geant4/geant4-v11.4.0/examples/basic/metall2/build/run.mac
+CWD: /home/neovp/soft/geant4/geant4-v11.4.0/examples/basic/metall2/build
+
+**************************************************************
+ Geant4 version Name: geant4-11-04 [MT]   (5-December-2025)
+  << in Multi-threaded mode >> 
+                       Copyright : Geant4 Collaboration
+                      References : NIM A 506 (2003), 250-303
+                                 : IEEE-TNS 53 (2006), 270-278
+                                 : NIM A 835 (2016), 186-225
+                             WWW : http://geant4.org/
+**************************************************************
+
+<<< Reference Physics List QBBC 
+Checking overlaps for volume pMask:0 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:0 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:3 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:4 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:6 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:7 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:8 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:9 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:13 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:15 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:17 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:18 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:19 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:24 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:27 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:30 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:31 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:32 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:34 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:35 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:37 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:38 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:39 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:40 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:44 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:46 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:48 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:49 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:50 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:55 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:58 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:61 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:62 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:64 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:65 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:67 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:68 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:69 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:70 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:74 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:76 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:78 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:79 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:80 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:85 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:88 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:91 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:92 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:93 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:95 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:96 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:98 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:99 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:100 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:101 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:105 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:107 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:109 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:110 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:111 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:116 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:119 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:124 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:127 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:132 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:133 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:134 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:136 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:138 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:142 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:143 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:144 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:145 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:147 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:148 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:150 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:151 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:152 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:155 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:158 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:163 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:164 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:165 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:167 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:169 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:173 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:174 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:175 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:176 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:178 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:179 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:181 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:182 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:183 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:184 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:186 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:187 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:189 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:190 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:191 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:192 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:196 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:198 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:200 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:201 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:202 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:207 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:210 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:213 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:214 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:215 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:217 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:218 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:220 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:221 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:222 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:223 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:227 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:229 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:231 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:232 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:233 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:238 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:241 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:244 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:245 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:247 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:248 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:250 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:251 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:252 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:253 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:257 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:259 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:261 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:262 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:263 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:268 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:271 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:274 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:275 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:276 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:278 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:279 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:281 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:282 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:283 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:284 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:288 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:290 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:292 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:293 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:294 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:299 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:302 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:307 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:310 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:315 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:316 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:317 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:319 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:321 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:325 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:326 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:327 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:328 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:330 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:331 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:333 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:334 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:335 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:338 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:341 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:346 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:347 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:348 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:350 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:352 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:356 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:357 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:358 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:359 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:361 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:362 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:364 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:365 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:366 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:367 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:369 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:370 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:372 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:373 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:374 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:375 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:379 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:381 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:383 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:384 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:385 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:390 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:393 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:396 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:397 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:398 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:400 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:401 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:403 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:404 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:405 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:406 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:410 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:412 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:414 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:415 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:416 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:421 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:424 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:427 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:428 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:430 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:431 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:433 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:434 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:435 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:436 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:440 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:442 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:444 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:445 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:446 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:451 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:454 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:457 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:458 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:459 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:461 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:462 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:464 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:465 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:466 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:467 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:471 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:473 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:475 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:476 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:477 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:482 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:485 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:488 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:489 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:491 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:492 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:494 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:495 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:496 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:497 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:501 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:503 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:505 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:506 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:507 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:512 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:515 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:518 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:519 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:520 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:522 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:523 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:525 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:526 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:527 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:528 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:532 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:534 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:536 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:537 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:538 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:543 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:546 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:549 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:550 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:552 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:553 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:555 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:556 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:557 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:558 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:562 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:564 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:566 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:567 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:568 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:573 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:576 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:579 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:580 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:581 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:583 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:584 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:586 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:587 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:588 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:589 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:593 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:595 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:597 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:598 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:599 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:604 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:607 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:612 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:615 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:620 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:621 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:622 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:624 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:626 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:630 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:631 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:632 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:633 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:635 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:636 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:638 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:639 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:640 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:643 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:646 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:651 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:652 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:653 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:655 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:657 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:661 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:662 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:663 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:664 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:666 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:667 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:669 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:670 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:673 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:676 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:681 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:682 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:683 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:685 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:687 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:691 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:692 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:693 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:694 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:696 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:697 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:699 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:700 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:701 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:704 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:707 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:712 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:713 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:714 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:716 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:718 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:722 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:723 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:724 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:725 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:727 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:728 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:730 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:731 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:734 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:737 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:742 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:743 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:744 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:746 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:748 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:752 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:753 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:754 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:755 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:757 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:758 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:760 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:761 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:762 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:765 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:768 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:773 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:774 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:775 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:777 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:779 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:783 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:784 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:785 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:786 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:788 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:789 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:791 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:792 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:793 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:794 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:796 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:797 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:799 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:800 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:801 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:802 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:806 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:808 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:810 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:811 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:812 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:817 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:820 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:823 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:824 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:825 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:827 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:828 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:830 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:831 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:832 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:833 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:837 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:839 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:841 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:842 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:843 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:848 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:851 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:856 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:859 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:864 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:865 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:866 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:868 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:870 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:874 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:875 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:876 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:877 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:879 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:880 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:882 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:883 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:884 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:887 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:890 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:895 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:896 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:897 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:899 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:901 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:905 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:906 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:907 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:908 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:910 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:911 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:913 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:914 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:915 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:916 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:918 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:919 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:921 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:922 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:923 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:924 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:928 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:930 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:932 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:933 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:934 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:939 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:942 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:945 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:946 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:947 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:949 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:950 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:952 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:953 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:954 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:955 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:959 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:961 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:963 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:964 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:965 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:970 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:973 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:978 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:981 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:986 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:987 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:988 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:990 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:992 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:996 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:997 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:998 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:999 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1001 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1002 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1004 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1005 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1006 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1009 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1012 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1017 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1018 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1019 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1021 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1023 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1027 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1028 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1029 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1030 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1032 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1033 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1035 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1036 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1037 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1038 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1040 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1041 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1043 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1044 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1045 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1046 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1050 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1052 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1054 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1055 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1056 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1061 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1064 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1067 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1068 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1069 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1071 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1072 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1074 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1075 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1076 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1077 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1081 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1083 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1085 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1086 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1087 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1092 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1095 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1098 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1099 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1101 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1102 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1104 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1105 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1106 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1107 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1111 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1113 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1115 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1116 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1117 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1122 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1125 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1128 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1129 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1130 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1132 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1133 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1135 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1136 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1137 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1138 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1142 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1144 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1146 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1147 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1148 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1153 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1156 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1159 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1160 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1162 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1163 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1165 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1166 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1167 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1168 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1172 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1174 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1176 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1177 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1178 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1183 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1186 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1189 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1190 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1191 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1193 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1194 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1196 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1197 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1198 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1199 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1203 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1205 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1207 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1208 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1209 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1214 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1217 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1222 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1225 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1230 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1231 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1232 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1234 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1236 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1240 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1241 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1242 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1243 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1245 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1246 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1248 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1249 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1250 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1253 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1256 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1261 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1262 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1263 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1265 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1267 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1271 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1272 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1273 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1274 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1276 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1277 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1279 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1280 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1283 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1286 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1291 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1292 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1293 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1295 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1297 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1301 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1302 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1303 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1304 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1306 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1307 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1309 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1310 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1311 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1314 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1317 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1322 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1323 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1324 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1326 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1328 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1332 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1333 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1334 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1335 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1337 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1338 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1340 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1341 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1344 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1347 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1352 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1353 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1354 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1356 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1358 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1362 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1363 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1364 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1365 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1367 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1368 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1370 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1371 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1372 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1375 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1378 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1383 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1384 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1385 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1387 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1389 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1393 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1394 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1395 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1396 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1398 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1399 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1401 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1402 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1405 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1408 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1413 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1414 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1415 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1417 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1419 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1423 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1424 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1425 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1426 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1428 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1429 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1431 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1432 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1433 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1436 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1439 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1444 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1445 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1446 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1448 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1450 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1454 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1455 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1456 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1457 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1459 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1460 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1462 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1463 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1464 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1465 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1467 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1468 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1470 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1471 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1472 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1473 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1477 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1479 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1481 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1482 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1483 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1488 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1491 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1494 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1495 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1496 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1498 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1499 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1501 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1502 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1503 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1504 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1508 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1510 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1512 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1513 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1514 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1519 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1522 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1527 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1530 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1535 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1536 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1537 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1539 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1541 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1545 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1546 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1547 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1548 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1550 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1551 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1553 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1554 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1555 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1558 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1561 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1566 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1567 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1568 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1570 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1572 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1576 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1577 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1578 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1579 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1581 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1582 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1584 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1585 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1588 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1591 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1596 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1597 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1598 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1600 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1602 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1606 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1607 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1608 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1609 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1611 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1612 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1614 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1615 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1616 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1619 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1622 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1627 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1628 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1629 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1631 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1633 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1637 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1638 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1639 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1640 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1642 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1643 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1645 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1646 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1647 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1648 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1650 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1651 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1653 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1654 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1655 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1656 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1660 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1662 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1664 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1665 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1666 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1671 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1674 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1677 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1678 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1679 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1681 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1682 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1684 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1685 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1686 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1687 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1691 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1693 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1695 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1696 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1697 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1702 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1705 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1710 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1713 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1718 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1719 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1720 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1722 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1724 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1728 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1729 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1730 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1731 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1733 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1734 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1736 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1737 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1738 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1741 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1744 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1749 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1750 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1751 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1753 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1755 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1759 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1760 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1761 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1762 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1764 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1765 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1767 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1768 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1771 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1774 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1779 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1780 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1781 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1783 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1785 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1789 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1790 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1791 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1792 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1794 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1795 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1797 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1798 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1799 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1802 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1805 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1810 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1811 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1812 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1814 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1816 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1820 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1821 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1822 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1823 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1825 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1826 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1828 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1829 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1891 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1892 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1894 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1895 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1897 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1898 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1899 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1900 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1904 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1906 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1908 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1909 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1910 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1915 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1918 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1921 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1922 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1923 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1925 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1926 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1928 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1929 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1930 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1931 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1935 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1937 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1939 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1940 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1941 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1946 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1949 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1952 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1953 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1955 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1956 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1958 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1959 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1960 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1961 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1965 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1967 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1969 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1970 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1971 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1976 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1979 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1982 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1983 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1984 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1986 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1987 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1989 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1990 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1991 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1992 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1996 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:1998 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2000 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2001 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2002 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2007 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2010 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2015 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2018 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2023 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2024 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2025 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2027 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2029 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2033 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2034 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2035 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2036 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2038 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2039 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2041 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2042 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2043 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2046 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2049 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2054 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2055 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2056 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2058 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2060 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2064 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2065 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2066 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2067 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2069 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2070 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2072 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2073 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2074 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2075 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2077 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2078 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2080 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2081 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2082 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2083 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2087 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2089 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2091 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2092 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2093 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2098 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2101 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2104 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2105 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2106 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2108 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2109 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2111 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2112 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2113 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2114 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2118 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2120 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2122 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2123 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2124 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2129 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2132 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2135 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2136 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2138 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2139 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2141 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2142 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2143 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2144 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2148 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2150 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2152 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2153 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2154 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2159 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2162 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2165 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2166 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2167 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2169 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2170 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2172 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2173 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2174 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2175 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2179 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2181 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2183 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2184 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2185 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2190 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2193 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2198 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2201 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2206 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2207 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2208 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2210 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2212 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2216 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2217 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2218 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2219 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2221 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2222 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2224 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2225 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2226 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2229 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2232 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2237 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2238 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2239 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2241 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2243 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2247 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2248 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2249 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2250 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2252 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2253 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2255 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2256 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2257 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2258 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2260 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2261 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2263 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2264 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2265 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2266 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2270 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2272 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2274 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2275 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2276 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2281 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2284 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2287 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2288 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2289 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2291 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2292 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2294 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2295 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2296 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2297 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2301 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2303 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2305 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2306 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2307 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2312 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2315 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2318 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2319 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2321 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2322 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2324 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2325 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2326 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2327 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2331 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2333 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2335 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2336 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2337 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2342 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2345 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2348 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2349 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2350 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2352 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2353 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2355 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2356 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2357 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2358 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2362 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2364 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2366 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2367 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2368 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2373 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2376 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2379 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2380 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2382 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2383 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2385 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2386 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2387 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2388 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2392 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2394 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2396 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2397 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2398 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2403 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2406 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2409 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2410 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2411 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2413 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2414 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2416 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2417 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2418 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2419 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2423 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2425 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2427 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2428 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2429 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2434 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2437 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2440 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2441 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2443 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2444 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2446 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2447 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2448 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2449 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2453 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2455 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2457 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2458 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2459 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2464 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2467 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2470 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2471 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2472 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2474 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2475 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2477 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2478 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2479 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2480 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2484 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2486 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2488 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2489 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2490 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2495 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2498 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2503 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2506 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2511 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2512 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2513 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2515 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2517 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2521 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2522 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2523 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2524 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2526 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2527 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2529 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2530 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2531 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2534 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2537 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2542 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2543 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2544 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2546 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2548 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2552 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2553 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2554 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2555 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2557 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2558 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2560 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2561 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2564 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2567 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2572 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2573 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2574 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2576 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2578 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2582 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2583 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2584 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2585 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2587 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2588 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2590 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2591 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2592 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2595 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2598 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2603 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2604 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2605 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2607 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2609 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2613 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2614 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2615 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2616 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2618 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2619 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2621 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2622 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2625 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2628 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2633 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2634 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2635 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2637 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2639 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2643 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2644 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2645 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2646 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2648 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2649 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2651 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2652 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2653 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2656 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2659 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2664 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2665 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2666 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2668 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2670 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2674 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2675 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2676 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2677 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2679 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2680 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2682 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2683 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2684 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2685 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2687 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2688 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2690 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2691 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2692 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2693 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2697 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2699 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2701 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2702 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2703 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2708 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2711 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2714 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2715 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2716 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2718 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2719 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2721 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2722 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2723 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2724 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2728 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2730 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2732 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2733 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2734 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2739 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2742 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2747 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2750 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2755 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2756 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2757 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2759 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2761 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2765 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2766 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2767 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2768 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2770 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2771 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2773 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2774 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2775 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2778 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2781 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2786 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2787 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2788 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2790 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2792 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2796 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2797 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2798 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2799 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2801 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2802 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2804 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2805 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2806 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2807 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2809 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2810 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2812 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2813 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2814 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2815 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2819 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2821 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2823 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2824 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2825 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2830 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2833 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2836 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2837 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2838 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2840 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2841 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2843 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2844 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2845 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2846 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2850 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2852 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2854 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2855 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2856 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2861 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2864 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2869 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2872 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2877 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2878 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2879 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2881 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2883 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2887 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2888 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2889 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2890 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2892 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2893 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2895 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2896 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2897 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2900 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2903 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2908 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2909 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2910 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2912 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2914 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2918 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2919 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2920 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2921 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2923 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2924 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2926 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2927 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2928 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2929 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2931 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2932 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2934 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2935 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2936 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2937 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2941 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2943 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2945 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2946 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2947 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2952 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2955 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2958 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2959 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2960 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2962 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2963 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2965 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2966 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2967 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2968 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2972 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2974 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2976 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2977 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2978 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2983 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2986 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2989 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2990 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2992 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2993 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2995 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2996 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2997 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:2998 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:3002 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:3004 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:3006 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:3007 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:3008 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:3013 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:3016 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:3019 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:3020 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:3021 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:3023 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:3024 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:3026 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:3027 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:3028 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:3029 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:3033 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:3035 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:3037 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:3038 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:3039 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:3044 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:3047 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:3050 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:3051 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:3053 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:3054 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:3056 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:3057 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:3058 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:3059 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:3063 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:3065 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:3067 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:3068 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:3069 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:3074 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:3077 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:3080 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:3081 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:3082 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:3084 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:3085 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:3087 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:3088 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:3089 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:3090 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:3094 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:3096 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:3098 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:3099 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:3100 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:3105 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:3108 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:3113 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:3116 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:3121 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:3122 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:3123 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:3125 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:3127 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:3131 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:3132 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:3133 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:3134 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:3136 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:3137 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:3139 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:3140 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:3141 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:3144 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:3147 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:3152 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:3153 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:3154 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:3156 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:3158 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:3162 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:3163 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:3164 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:3165 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:3167 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:3168 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:3170 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:3171 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:3174 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:3177 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:3182 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:3183 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:3184 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:3186 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:3188 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:3192 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:3193 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:3194 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:3195 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:3197 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:3198 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:3200 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:3201 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:3202 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:3205 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:3208 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:3213 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:3214 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:3215 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:3217 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:3219 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:3223 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:3224 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:3225 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:3226 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:3228 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:3229 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:3231 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:3232 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:3235 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:3238 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:3243 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:3244 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:3245 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:3247 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:3249 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:3253 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:3254 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:3255 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:3256 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:3258 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:3259 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:3261 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:3262 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:3263 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:3266 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:3269 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:3274 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:3275 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:3276 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:3278 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:3280 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:3284 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:3285 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:3286 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:3287 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:3289 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:3290 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:3292 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:3293 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:3296 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:3299 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:3304 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:3305 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:3306 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:3308 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:3310 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:3314 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:3315 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:3316 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:3317 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:3319 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:3320 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:3322 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:3323 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:3324 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:3327 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:3330 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:3335 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:3336 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:3337 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:3339 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:3341 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:3345 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:3346 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:3347 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:3348 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:3350 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:3351 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:3353 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:3354 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:3355 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:3356 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:3358 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:3359 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:3361 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:3362 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:3363 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:3364 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:3368 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:3370 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:3372 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:3373 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:3374 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:3379 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:3382 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:3385 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:3386 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:3387 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:3389 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:3390 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:3392 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:3393 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:3394 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:3395 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:3399 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:3401 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:3403 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:3404 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:3405 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:3410 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:3413 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:3418 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:3421 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:3426 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:3427 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:3428 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:3430 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:3432 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:3436 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:3437 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:3438 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:3439 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:3441 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:3442 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:3444 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:3445 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:3446 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:3449 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:3452 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:3457 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:3458 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:3459 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:3461 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:3463 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:3467 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:3468 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:3469 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:3470 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:3472 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:3473 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:3475 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:3476 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:3479 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:3482 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:3487 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:3488 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:3489 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:3491 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:3493 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:3497 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:3498 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:3499 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:3500 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:3502 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:3503 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:3505 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:3506 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:3507 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:3510 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:3513 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:3518 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:3519 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:3520 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:3522 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:3524 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:3528 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:3529 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:3530 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:3531 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:3533 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:3534 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:3536 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:3537 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:3538 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:3539 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:3541 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:3542 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:3544 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:3545 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:3546 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:3547 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:3551 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:3553 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:3555 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:3556 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:3557 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:3562 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:3565 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:3568 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:3569 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:3570 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:3572 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:3573 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:3575 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:3576 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:3577 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:3578 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:3582 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:3584 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:3586 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:3587 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:3588 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:3593 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:3596 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:3601 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:3604 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:3609 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:3610 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:3611 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:3613 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:3615 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:3619 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:3620 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:3621 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:3622 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:3624 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:3625 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:3627 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:3628 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:3629 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:3632 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:3635 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:3640 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:3641 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:3642 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:3644 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:3646 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:3650 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:3651 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:3652 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:3653 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:3655 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:3656 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:3658 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:3659 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:3662 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:3665 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:3670 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:3671 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:3672 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:3674 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:3676 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:3680 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:3681 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:3682 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:3683 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:3685 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:3686 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:3688 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:3689 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:3690 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:3693 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:3696 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:3701 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:3702 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:3703 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:3705 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:3707 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:3711 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:3712 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:3713 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:3714 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:3716 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:3717 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:3719 (G4Tubs) ... OK! 
+Checking overlaps for volume pHole:3720 (G4Tubs) ... OK! 
+Checking overlaps for volume pTimepix:0 (G4Box) ... OK! 
+Checking overlaps for volume pMetal:0 (G4Box) ... OK! 
+### HadronInelasticQBBC Construct Process:
+    Emin(FTFP)= 3 GeV; Emax(FTFP)= 100000 GeV
+    Emin(BERT)= 1 GeV; Emax(BERT)= 6 GeV; Emax(BERTpions)= 12 GeV;
+    Emin(BIC) = 0 GeV; Emax(BIC)= 1.5 GeV.
+### Adding tracking cuts for neutron  TimeCut(ns)= 10000  KinEnergyCut(MeV)= 0
+=======================================================================
+======                 Electromagnetic Physics Parameters      ========
+=======================================================================
+LPM effect enabled                                 1
+Enable creation and use of sampling tables         0
+Apply cuts on all EM processes                     0
+Use combined TransportationWithMsc                 Disabled
+Use general process                                1
+Enable linear polarisation for gamma               0
+Enable photoeffect sampling below K-shell          1
+Enable sampling of quantum entanglement            0
+X-section factor for integral approach             0.8
+Min kinetic energy for tables                      100 eV 
+Max kinetic energy for tables                      100 TeV
+Number of bins per decade of a table               7
+Verbose level                                      1
+Verbose level for worker thread                    0
+Bremsstrahlung energy threshold above which 
+  primary e+- is added to the list of secondary    100 TeV
+Bremsstrahlung energy threshold above which primary
+  muon/hadron is added to the list of secondary    100 TeV
+Positron annihilation at rest model                SimplePositronium
+Enable 3 gamma annihilation on fly                 0
+Lowest triplet kinetic energy                      1 MeV
+Enable sampling of gamma linear polarisation       0
+5D gamma conversion model type                     0
+5D gamma conversion model on isolated ion          0
+Use RiGe 5D e+e- pair production model by muons    0
+Livermore data directory                           epics_2017
+=======================================================================
+======                 Ionisation Parameters                   ========
+=======================================================================
+Step function for e+-                              (0.2, 1 mm)
+Step function for muons/hadrons                    (0.2, 0.1 mm)
+Step function for light ions                       (0.2, 0.1 mm)
+Step function for general ions                     (0.2, 0.1 mm)
+Lowest e+e- kinetic energy                         1 keV
+Lowest muon/hadron kinetic energy                  1 keV
+Use ICRU90 data                                    0
+Fluctuations of dE/dx are enabled                  1
+Type of fluctuation model for leptons and hadrons  Urban
+Use built-in Birks saturation                      0
+Build CSDA range enabled                           0
+Use cut as a final range enabled                   0
+Enable angular generator interface                 0
+Max kinetic energy for CSDA tables                 1 GeV
+Max kinetic energy for NIEL computation            0 eV 
+Linear loss limit                                  0.01
+Read data from file for e+e- pair production by mu 0
+=======================================================================
+======                 Multiple Scattering Parameters          ========
+=======================================================================
+Type of msc step limit algorithm for e+-           1
+Type of msc step limit algorithm for muons/hadrons 0
+Msc lateral displacement for e+- enabled           1
+Msc lateral displacement for muons and hadrons     0
+Urban msc model lateral displacement alg96         1
+Range factor for msc step limit for e+-            0.04
+Range factor for msc step limit for muons/hadrons  0.2
+Geometry factor for msc step limitation of e+-     2.5
+Safety factor for msc step limit for e+-           0.6
+Skin parameter for msc step limitation of e+-      1
+Lambda limit for msc step limit for e+-            1 mm
+Use Mott correction for e- scattering              0
+Factor used for dynamic computation of angular 
+  limit between single and multiple scattering     1
+Fixed angular limit between single 
+  and multiple scattering                          3.1416 rad
+Upper energy limit for e+- multiple scattering     100 MeV
+Type of electron single scattering model           0
+Type of nuclear form-factor                        1
+Screening factor                                   1
+=======================================================================
+
+phot:  for gamma SubType=12 BuildTable=0
+      LambdaPrime table from 200 keV to 100 TeV in 61 bins 
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+ LivermorePhElectric : Emin=    0 eV  Emax=  100 TeV  SauterGavrila Fluo
+
+compt:  for gamma SubType=13 BuildTable=1
+      Lambda table from 100 eV  to 1 MeV, 7 bins/decade, spline: 1
+      LambdaPrime table from 1 MeV to 100 TeV in 56 bins 
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+       Klein-Nishina : Emin=    0 eV  Emax=  100 TeV
+
+conv:  for gamma SubType=14 BuildTable=1
+      Lambda table from 1.022 MeV to 100 TeV, 18 bins/decade, spline: 1
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+     BetheHeitlerLPM : Emin=    0 eV  Emax=  100 TeV  ModifiedTsai
+
+Rayl:  for gamma SubType=11 BuildTable=1
+      Lambda table from 100 eV  to 150 keV, 7 bins/decade, spline: 0
+      LambdaPrime table from 150 keV to 100 TeV in 62 bins 
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+   LivermoreRayleigh : Emin=    0 eV  Emax=  100 TeV  CullenGenerator
+
+msc:  for e-  SubType= 10
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+            UrbanMsc : Emin=    0 eV  Emax=  100 MeV Nbins=42 100 eV  - 100 MeV
+          StepLim=UseSafety Rfact=0.04 Gfact=2.5 Sfact=0.6 DispFlag:1 Skin=1 Llim=1 mm
+        WentzelVIUni : Emin=  100 MeV Emax=  100 TeV Nbins=42 100 MeV - 100 TeV
+          StepLim=UseSafety Rfact=0.04 Gfact=2.5 Sfact=0.6 DispFlag:1 Skin=1 Llim=1 mm
+
+eIoni:  for e-  XStype:3  SubType=2
+      dE/dx and range tables from 100 eV  to 100 TeV in 84 bins
+      Lambda tables from threshold to 100 TeV, 7 bins/decade, spline: 1
+      StepFunction=(0.2, 1 mm), integ: 3, fluct: 1, linLossLim= 0.01
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+        MollerBhabha : Emin=    0 eV  Emax=  100 TeV
+
+eBrem:  for e-  XStype:4  SubType=3
+      dE/dx and range tables from 100 eV  to 100 TeV in 84 bins
+      Lambda tables from threshold to 100 TeV, 7 bins/decade, spline: 1
+      LPM flag: 1 for E > 1 GeV,  VertexHighEnergyTh(GeV)= 100000
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+             eBremSB : Emin=    0 eV  Emax=    1 GeV  ModifiedTsai
+            eBremLPM : Emin=    1 GeV Emax=  100 TeV  ModifiedTsai
+
+CoulombScat:  for e- XStype:1 SubType=1 BuildTable=1
+      Lambda table from 100 MeV to 100 TeV, 7 bins/decade, spline: 0
+      ThetaMin(p) < Theta(degree) < 180, pLimit(GeV^1)= 0.139531
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+  eCoulombScattering : Emin=  100 MeV Emax=  100 TeV
+
+msc:  for e+  SubType= 10
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+            UrbanMsc : Emin=    0 eV  Emax=  100 MeV Nbins=42 100 eV  - 100 MeV
+          StepLim=UseSafety Rfact=0.04 Gfact=2.5 Sfact=0.6 DispFlag:1 Skin=1 Llim=1 mm
+        WentzelVIUni : Emin=  100 MeV Emax=  100 TeV Nbins=42 100 MeV - 100 TeV
+          StepLim=UseSafety Rfact=0.04 Gfact=2.5 Sfact=0.6 DispFlag:1 Skin=1 Llim=1 mm
+
+eIoni:  for e+  XStype:3  SubType=2
+      dE/dx and range tables from 100 eV  to 100 TeV in 84 bins
+      Lambda tables from threshold to 100 TeV, 7 bins/decade, spline: 1
+      StepFunction=(0.2, 1 mm), integ: 3, fluct: 1, linLossLim= 0.01
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+        MollerBhabha : Emin=    0 eV  Emax=  100 TeV
+
+eBrem:  for e+  XStype:4  SubType=3
+      dE/dx and range tables from 100 eV  to 100 TeV in 84 bins
+      Lambda tables from threshold to 100 TeV, 7 bins/decade, spline: 1
+      LPM flag: 1 for E > 1 GeV,  VertexHighEnergyTh(GeV)= 100000
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+             eBremSB : Emin=    0 eV  Emax=    1 GeV  ModifiedTsai
+            eBremLPM : Emin=    1 GeV Emax=  100 TeV  ModifiedTsai
+
+annihil:  for e+ XStype:2 SubType=5 AtRestModel:Simple BuildTable=0
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+            eplus2gg : Emin=    0 eV  Emax=  100 TeV
+
+CoulombScat:  for e+ XStype:1 SubType=1 BuildTable=1
+      Lambda table from 100 MeV to 100 TeV, 7 bins/decade, spline: 0
+      ThetaMin(p) < Theta(degree) < 180, pLimit(GeV^1)= 0.139531
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+  eCoulombScattering : Emin=  100 MeV Emax=  100 TeV
+
+msc:  for proton  SubType= 10
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+        WentzelVIUni : Emin=    0 eV  Emax=  100 TeV Nbins=84 100 eV  - 100 TeV
+          StepLim=Minimal Rfact=0.2 Gfact=2.5 Sfact=0.6 DispFlag:0 Skin=1 Llim=1 mm
+
+hIoni:  for proton  XStype:3  SubType=2
+      dE/dx and range tables from 100 eV  to 100 TeV in 84 bins
+      Lambda tables from threshold to 100 TeV, 7 bins/decade, spline: 1
+      StepFunction=(0.2, 0.1 mm), integ: 3, fluct: 1, linLossLim= 0.01
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+               Bragg : Emin=    0 eV  Emax=    2 MeV
+          BetheBloch : Emin=    2 MeV Emax=  100 TeV
+
+hBrems:  for proton  XStype:1  SubType=3
+      dE/dx and range tables from 100 eV  to 100 TeV in 84 bins
+      Lambda tables from threshold to 100 TeV, 7 bins/decade, spline: 1
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+               hBrem : Emin=    0 eV  Emax=  100 TeV  ModifiedMephi
+
+hPairProd:  for proton  XStype:1  SubType=4
+      dE/dx and range tables from 100 eV  to 100 TeV in 84 bins
+      Lambda tables from threshold to 100 TeV, 7 bins/decade, spline: 1
+      Sampling table 17x1001, from 7.50618 GeV to 100 TeV 
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+           hPairProd : Emin=    0 eV  Emax=  100 TeV  ModifiedMephi
+
+CoulombScat:  for proton XStype:1 SubType=1 BuildTable=1
+      Lambda table from threshold  to 100 TeV, 7 bins/decade, spline: 0
+      ThetaMin(p) < Theta(degree) < 180, pLimit(GeV^1)= 0.139531
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+  eCoulombScattering : Emin=    0 eV  Emax=  100 TeV
+
+msc:  for GenericIon  SubType= 10
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+            UrbanMsc : Emin=    0 eV  Emax=  100 TeV
+          StepLim=Minimal Rfact=0.2 Gfact=2.5 Sfact=0.6 DispFlag:0 Skin=1 Llim=1 mm
+
+ionIoni:  for GenericIon  XStype:3  SubType=2
+      dE/dx and range tables from 100 eV  to 100 TeV in 84 bins
+      Lambda tables from threshold to 100 TeV, 7 bins/decade, spline: 1
+      StepFunction=(0.2, 0.1 mm), integ: 3, fluct: 1, linLossLim= 0.02
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+               Bragg : Emin=    0 eV  Emax=    2 MeV
+          BetheBloch : Emin=    2 MeV Emax=  100 TeV
+
+msc:  for alpha  SubType= 10
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+            UrbanMsc : Emin=    0 eV  Emax=  100 TeV
+          StepLim=Minimal Rfact=0.2 Gfact=2.5 Sfact=0.6 DispFlag:0 Skin=1 Llim=1 mm
+
+ionIoni:  for alpha  XStype:3  SubType=2
+      dE/dx and range tables from 100 eV  to 100 TeV in 84 bins
+      Lambda tables from threshold to 100 TeV, 7 bins/decade, spline: 1
+      StepFunction=(0.2, 0.1 mm), integ: 3, fluct: 1, linLossLim= 0.02
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+            BraggIon : Emin=    0 eV  Emax=7.9452 MeV
+          BetheBloch : Emin=7.9452 MeV Emax=  100 TeV
+
+msc:  for anti_proton  SubType= 10
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+        WentzelVIUni : Emin=    0 eV  Emax=  100 TeV Nbins=84 100 eV  - 100 TeV
+          StepLim=Minimal Rfact=0.2 Gfact=2.5 Sfact=0.6 DispFlag:0 Skin=1 Llim=1 mm
+
+hIoni:  for anti_proton  XStype:3  SubType=2
+      dE/dx and range tables from 100 eV  to 100 TeV in 84 bins
+      Lambda tables from threshold to 100 TeV, 7 bins/decade, spline: 1
+      StepFunction=(0.2, 0.1 mm), integ: 3, fluct: 1, linLossLim= 0.01
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+            ICRU73QO : Emin=    0 eV  Emax=    2 MeV
+          BetheBloch : Emin=    2 MeV Emax=  100 TeV
+
+hBrems:  for anti_proton  XStype:1  SubType=3
+      dE/dx and range tables from 100 eV  to 100 TeV in 84 bins
+      Lambda tables from threshold to 100 TeV, 7 bins/decade, spline: 1
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+               hBrem : Emin=    0 eV  Emax=  100 TeV  ModifiedMephi
+
+hPairProd:  for anti_proton  XStype:1  SubType=4
+      dE/dx and range tables from 100 eV  to 100 TeV in 84 bins
+      Lambda tables from threshold to 100 TeV, 7 bins/decade, spline: 1
+      Sampling table 17x1001, from 7.50618 GeV to 100 TeV 
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+           hPairProd : Emin=    0 eV  Emax=  100 TeV  ModifiedMephi
+
+CoulombScat:  for anti_proton XStype:1 SubType=1 BuildTable=1
+      Lambda table from threshold  to 100 TeV, 7 bins/decade, spline: 0
+      ThetaMin(p) < Theta(degree) < 180, pLimit(GeV^1)= 0.139531
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+  eCoulombScattering : Emin=    0 eV  Emax=  100 TeV
+
+msc:  for kaon+  SubType= 10
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+        WentzelVIUni : Emin=    0 eV  Emax=  100 TeV Nbins=84 100 eV  - 100 TeV
+          StepLim=Minimal Rfact=0.2 Gfact=2.5 Sfact=0.6 DispFlag:0 Skin=1 Llim=1 mm
+
+hIoni:  for kaon+  XStype:3  SubType=2
+      dE/dx and range tables from 100 eV  to 100 TeV in 84 bins
+      Lambda tables from threshold to 100 TeV, 7 bins/decade, spline: 1
+      StepFunction=(0.2, 0.1 mm), integ: 3, fluct: 1, linLossLim= 0.01
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+               Bragg : Emin=    0 eV  Emax=1.05231 MeV
+          BetheBloch : Emin=1.05231 MeV Emax=  100 TeV
+
+hBrems:  for kaon+  XStype:1  SubType=3
+      dE/dx and range tables from 100 eV  to 100 TeV in 84 bins
+      Lambda tables from threshold to 100 TeV, 7 bins/decade, spline: 1
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+               hBrem : Emin=    0 eV  Emax=  100 TeV  ModifiedMephi
+
+hPairProd:  for kaon+  XStype:1  SubType=4
+      dE/dx and range tables from 100 eV  to 100 TeV in 84 bins
+      Lambda tables from threshold to 100 TeV, 7 bins/decade, spline: 1
+      Sampling table 18x1001, from 3.94942 GeV to 100 TeV 
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+           hPairProd : Emin=    0 eV  Emax=  100 TeV  ModifiedMephi
+
+CoulombScat:  for kaon+ XStype:1 SubType=1 BuildTable=1
+      Lambda table from threshold  to 100 TeV, 7 bins/decade, spline: 0
+      ThetaMin(p) < Theta(degree) < 180, pLimit(GeV^1)= 0.139531
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+  eCoulombScattering : Emin=    0 eV  Emax=  100 TeV
+
+msc:  for kaon-  SubType= 10
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+        WentzelVIUni : Emin=    0 eV  Emax=  100 TeV Nbins=84 100 eV  - 100 TeV
+          StepLim=Minimal Rfact=0.2 Gfact=2.5 Sfact=0.6 DispFlag:0 Skin=1 Llim=1 mm
+
+hIoni:  for kaon-  XStype:3  SubType=2
+      dE/dx and range tables from 100 eV  to 100 TeV in 84 bins
+      Lambda tables from threshold to 100 TeV, 7 bins/decade, spline: 1
+      StepFunction=(0.2, 0.1 mm), integ: 3, fluct: 1, linLossLim= 0.01
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+            ICRU73QO : Emin=    0 eV  Emax=1.05231 MeV
+          BetheBloch : Emin=1.05231 MeV Emax=  100 TeV
+
+hBrems:  for kaon-  XStype:1  SubType=3
+      dE/dx and range tables from 100 eV  to 100 TeV in 84 bins
+      Lambda tables from threshold to 100 TeV, 7 bins/decade, spline: 1
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+               hBrem : Emin=    0 eV  Emax=  100 TeV  ModifiedMephi
+
+hPairProd:  for kaon-  XStype:1  SubType=4
+      dE/dx and range tables from 100 eV  to 100 TeV in 84 bins
+      Lambda tables from threshold to 100 TeV, 7 bins/decade, spline: 1
+      Sampling table 18x1001, from 3.94942 GeV to 100 TeV 
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+           hPairProd : Emin=    0 eV  Emax=  100 TeV  ModifiedMephi
+
+CoulombScat:  for kaon- XStype:1 SubType=1 BuildTable=1
+      Used Lambda table of kaon+
+      ThetaMin(p) < Theta(degree) < 180, pLimit(GeV^1)= 0.139531
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+  eCoulombScattering : Emin=    0 eV  Emax=  100 TeV
+
+msc:  for mu+  SubType= 10
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+        WentzelVIUni : Emin=    0 eV  Emax=  100 TeV Nbins=84 100 eV  - 100 TeV
+          StepLim=Minimal Rfact=0.2 Gfact=2.5 Sfact=0.6 DispFlag:0 Skin=1 Llim=1 mm
+
+muIoni:  for mu+  XStype:3  SubType=2
+      dE/dx and range tables from 100 eV  to 100 TeV in 84 bins
+      Lambda tables from threshold to 100 TeV, 7 bins/decade, spline: 1
+      StepFunction=(0.2, 0.1 mm), integ: 3, fluct: 1, linLossLim= 0.01
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+               Bragg : Emin=    0 eV  Emax=  200 keV
+        MuBetheBloch : Emin=  200 keV Emax=  100 TeV
+
+muBrems:  for mu+  XStype:1  SubType=3
+      dE/dx and range tables from 100 eV  to 100 TeV in 84 bins
+      Lambda tables from threshold to 100 TeV, 7 bins/decade, spline: 1
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+              MuBrem : Emin=    0 eV  Emax=  100 TeV  ModifiedMephi
+
+muPairProd:  for mu+  XStype:1  SubType=4
+      dE/dx and range tables from 100 eV  to 100 TeV in 84 bins
+      Lambda tables from threshold to 100 TeV, 7 bins/decade, spline: 1
+      Sampling table 21x1001, from 0.85 GeV to 100 TeV 
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+          muPairProd : Emin=    0 eV  Emax=  100 TeV  ModifiedMephi
+
+CoulombScat:  for mu+ XStype:1 SubType=1 BuildTable=1
+      Lambda table from threshold  to 100 TeV, 7 bins/decade, spline: 0
+      ThetaMin(p) < Theta(degree) < 180, pLimit(GeV^1)= 0.139531
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+  eCoulombScattering : Emin=    0 eV  Emax=  100 TeV
+
+msc:  for mu-  SubType= 10
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+        WentzelVIUni : Emin=    0 eV  Emax=  100 TeV Nbins=84 100 eV  - 100 TeV
+          StepLim=Minimal Rfact=0.2 Gfact=2.5 Sfact=0.6 DispFlag:0 Skin=1 Llim=1 mm
+
+muIoni:  for mu-  XStype:3  SubType=2
+      dE/dx and range tables from 100 eV  to 100 TeV in 84 bins
+      Lambda tables from threshold to 100 TeV, 7 bins/decade, spline: 1
+      StepFunction=(0.2, 0.1 mm), integ: 3, fluct: 1, linLossLim= 0.01
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+            ICRU73QO : Emin=    0 eV  Emax=  200 keV
+        MuBetheBloch : Emin=  200 keV Emax=  100 TeV
+
+muBrems:  for mu-  XStype:1  SubType=3
+      dE/dx and range tables from 100 eV  to 100 TeV in 84 bins
+      Lambda tables from threshold to 100 TeV, 7 bins/decade, spline: 1
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+              MuBrem : Emin=    0 eV  Emax=  100 TeV  ModifiedMephi
+
+muPairProd:  for mu-  XStype:1  SubType=4
+      dE/dx and range tables from 100 eV  to 100 TeV in 84 bins
+      Lambda tables from threshold to 100 TeV, 7 bins/decade, spline: 1
+      Sampling table 21x1001, from 0.85 GeV to 100 TeV 
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+          muPairProd : Emin=    0 eV  Emax=  100 TeV  ModifiedMephi
+
+CoulombScat:  for mu- XStype:1 SubType=1 BuildTable=1
+      Used Lambda table of mu+
+      ThetaMin(p) < Theta(degree) < 180, pLimit(GeV^1)= 0.139531
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+  eCoulombScattering : Emin=    0 eV  Emax=  100 TeV
+
+msc:  for pi+  SubType= 10
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+        WentzelVIUni : Emin=    0 eV  Emax=  100 TeV Nbins=84 100 eV  - 100 TeV
+          StepLim=Minimal Rfact=0.2 Gfact=2.5 Sfact=0.6 DispFlag:0 Skin=1 Llim=1 mm
+
+hIoni:  for pi+  XStype:3  SubType=2
+      dE/dx and range tables from 100 eV  to 100 TeV in 84 bins
+      Lambda tables from threshold to 100 TeV, 7 bins/decade, spline: 1
+      StepFunction=(0.2, 0.1 mm), integ: 3, fluct: 1, linLossLim= 0.01
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+               Bragg : Emin=    0 eV  Emax=297.505 keV
+          BetheBloch : Emin=297.505 keV Emax=  100 TeV
+
+hBrems:  for pi+  XStype:1  SubType=3
+      dE/dx and range tables from 100 eV  to 100 TeV in 84 bins
+      Lambda tables from threshold to 100 TeV, 7 bins/decade, spline: 1
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+               hBrem : Emin=    0 eV  Emax=  100 TeV  ModifiedMephi
+
+hPairProd:  for pi+  XStype:1  SubType=4
+      dE/dx and range tables from 100 eV  to 100 TeV in 84 bins
+      Lambda tables from threshold to 100 TeV, 7 bins/decade, spline: 1
+      Sampling table 20x1001, from 1.11656 GeV to 100 TeV 
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+           hPairProd : Emin=    0 eV  Emax=  100 TeV  ModifiedMephi
+
+CoulombScat:  for pi+ XStype:1 SubType=1 BuildTable=1
+      Lambda table from threshold  to 100 TeV, 7 bins/decade, spline: 0
+      ThetaMin(p) < Theta(degree) < 180, pLimit(GeV^1)= 0.139531
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+  eCoulombScattering : Emin=    0 eV  Emax=  100 TeV
+
+msc:  for pi-  SubType= 10
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+        WentzelVIUni : Emin=    0 eV  Emax=  100 TeV Nbins=84 100 eV  - 100 TeV
+          StepLim=Minimal Rfact=0.2 Gfact=2.5 Sfact=0.6 DispFlag:0 Skin=1 Llim=1 mm
+
+hIoni:  for pi-  XStype:3  SubType=2
+      dE/dx and range tables from 100 eV  to 100 TeV in 84 bins
+      Lambda tables from threshold to 100 TeV, 7 bins/decade, spline: 1
+      StepFunction=(0.2, 0.1 mm), integ: 3, fluct: 1, linLossLim= 0.01
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+            ICRU73QO : Emin=    0 eV  Emax=297.505 keV
+          BetheBloch : Emin=297.505 keV Emax=  100 TeV
+
+hBrems:  for pi-  XStype:1  SubType=3
+      dE/dx and range tables from 100 eV  to 100 TeV in 84 bins
+      Lambda tables from threshold to 100 TeV, 7 bins/decade, spline: 1
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+               hBrem : Emin=    0 eV  Emax=  100 TeV  ModifiedMephi
+
+hPairProd:  for pi-  XStype:1  SubType=4
+      dE/dx and range tables from 100 eV  to 100 TeV in 84 bins
+      Lambda tables from threshold to 100 TeV, 7 bins/decade, spline: 1
+      Sampling table 20x1001, from 1.11656 GeV to 100 TeV 
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+           hPairProd : Emin=    0 eV  Emax=  100 TeV  ModifiedMephi
+
+CoulombScat:  for pi- XStype:1 SubType=1 BuildTable=1
+      Used Lambda table of pi+
+      ThetaMin(p) < Theta(degree) < 180, pLimit(GeV^1)= 0.139531
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+  eCoulombScattering : Emin=    0 eV  Emax=  100 TeV
+
+====================================================================
+                  HADRONIC PROCESSES SUMMARY (verbose level 1)
+-----------------------------------------------------------------------
+                           Hadronic Processes for neutron
+  Process: hadElastic
+        Model:             hElasticCHIPS: 0 eV  ---> 100 TeV
+     Cr_sctns:        G4NeutronElasticXS: 0 eV  ---> 100 TeV
+  Process: neutronInelastic
+        Model:                      FTFP: 3 GeV ---> 100 TeV
+        Model:            BertiniCascade: 1 GeV ---> 6 GeV
+        Model:            Binary Cascade: 0 eV  ---> 1.5 GeV
+     Cr_sctns:      G4NeutronInelasticXS: 0 eV  ---> 100 TeV
+  Process: nCapture
+        Model:               nRadCapture: 0 eV  ---> 100 TeV
+     Cr_sctns:        G4NeutronCaptureXS: 0 eV  ---> 100 TeV
+  Process: nKiller
+-----------------------------------------------------------------------
+                           Hadronic Processes for B-
+  Process: hadElastic
+        Model:              hElasticLHEP: 0 eV  ---> 100 TeV
+     Cr_sctns:            Glauber-Gribov: 0 eV  ---> 100 TeV
+  Process: B-Inelastic
+        Model:                      FTFP: 0 eV  ---> 100 TeV
+     Cr_sctns:            Glauber-Gribov: 0 eV  ---> 100 TeV
+-----------------------------------------------------------------------
+                           Hadronic Processes for D-
+  Process: hadElastic
+        Model:              hElasticLHEP: 0 eV  ---> 100 TeV
+     Cr_sctns:            Glauber-Gribov: 0 eV  ---> 100 TeV
+  Process: D-Inelastic
+        Model:                      FTFP: 0 eV  ---> 100 TeV
+     Cr_sctns:            Glauber-Gribov: 0 eV  ---> 100 TeV
+-----------------------------------------------------------------------
+                           Hadronic Processes for GenericIon
+  Process: ionInelastic
+        Model:  Binary Light Ion Cascade: 0 eV /n ---> 6 GeV/n
+        Model:                      FTFP: 3 GeV/n ---> 100 TeV/n
+     Cr_sctns:  Glauber-Gribov Nucl-nucl: 0 eV  ---> 25.6 PeV
+  Process: ionElastic
+        Model:          NNDiffuseElastic: 0 eV /n ---> 100 TeV/n
+     Cr_sctns:  Glauber-Gribov Nucl-nucl: 0 eV  ---> 25.6 PeV
+-----------------------------------------------------------------------
+                           Hadronic Processes for He3
+  Process: hadElastic
+        Model:              hElasticLHEP: 0 eV /n ---> 100 TeV/n
+     Cr_sctns:  Glauber-Gribov Nucl-nucl: 0 eV  ---> 25.6 PeV
+  Process: He3Inelastic
+        Model:  Binary Light Ion Cascade: 0 eV /n ---> 6 GeV/n
+        Model:                      FTFP: 3 GeV/n ---> 100 TeV/n
+     Cr_sctns:             He3ParticleXS: 0 eV  ---> 25.6 PeV
+-----------------------------------------------------------------------
+                           Hadronic Processes for alpha
+  Process: hadElastic
+        Model:              hElasticLHEP: 0 eV /n ---> 100 TeV/n
+     Cr_sctns:  Glauber-Gribov Nucl-nucl: 0 eV  ---> 25.6 PeV
+  Process: alphaInelastic
+        Model:  Binary Light Ion Cascade: 0 eV /n ---> 6 GeV/n
+        Model:                      FTFP: 3 GeV/n ---> 100 TeV/n
+     Cr_sctns:           alphaParticleXS: 0 eV  ---> 25.6 PeV
+-----------------------------------------------------------------------
+                           Hadronic Processes for anti_He3
+  Process: hadElastic
+        Model:              hElasticLHEP: 0 eV /n ---> 100.1 MeV/n
+        Model:              AntiAElastic: 100 MeV/n ---> 100 TeV/n
+     Cr_sctns:              AntiAGlauber: 0 eV  ---> 25.6 PeV
+  Process: anti_He3Inelastic
+        Model:                      FTFP: 0 eV /n ---> 100 TeV/n
+     Cr_sctns:              AntiAGlauber: 0 eV  ---> 25.6 PeV
+  Process: hFritiofCaptureAtRest
+-----------------------------------------------------------------------
+                           Hadronic Processes for anti_alpha
+  Process: hadElastic
+        Model:              hElasticLHEP: 0 eV /n ---> 100.1 MeV/n
+        Model:              AntiAElastic: 100 MeV/n ---> 100 TeV/n
+     Cr_sctns:              AntiAGlauber: 0 eV  ---> 25.6 PeV
+  Process: anti_alphaInelastic
+        Model:                      FTFP: 0 eV /n ---> 100 TeV/n
+     Cr_sctns:              AntiAGlauber: 0 eV  ---> 25.6 PeV
+  Process: hFritiofCaptureAtRest
+-----------------------------------------------------------------------
+                           Hadronic Processes for anti_deuteron
+  Process: hadElastic
+        Model:              hElasticLHEP: 0 eV /n ---> 100.1 MeV/n
+        Model:              AntiAElastic: 100 MeV/n ---> 100 TeV/n
+     Cr_sctns:              AntiAGlauber: 0 eV  ---> 25.6 PeV
+  Process: anti_deuteronInelastic
+        Model:                      FTFP: 0 eV /n ---> 100 TeV/n
+     Cr_sctns:              AntiAGlauber: 0 eV  ---> 25.6 PeV
+  Process: hFritiofCaptureAtRest
+-------------------------------------------------------------------------
+                           Hadronic Processes for anti_hypertriton
+  Process: hFritiofCaptureAtRest
+-----------------------------------------------------------------------
+                           Hadronic Processes for anti_lambda
+  Process: hadElastic
+        Model:              hElasticLHEP: 0 eV  ---> 100 TeV
+     Cr_sctns:            Glauber-Gribov: 0 eV  ---> 100 TeV
+  Process: anti_lambdaInelastic
+        Model:                      FTFP: 0 eV  ---> 100 TeV
+     Cr_sctns:            Glauber-Gribov: 0 eV  ---> 100 TeV
+  Process: hFritiofCaptureAtRest
+-----------------------------------------------------------------------
+                           Hadronic Processes for anti_neutron
+  Process: hadElastic
+        Model:              hElasticLHEP: 0 eV  ---> 100.1 MeV
+        Model:              AntiAElastic: 100 MeV ---> 100 TeV
+     Cr_sctns:              AntiAGlauber: 0 eV  ---> 25.6 PeV
+  Process: anti_neutronInelastic
+        Model:                      FTFP: 0 eV  ---> 100 TeV
+     Cr_sctns:              AntiAGlauber: 0 eV  ---> 25.6 PeV
+  Process: hFritiofCaptureAtRest
+-----------------------------------------------------------------------
+                           Hadronic Processes for anti_proton
+  Process: hadElastic
+        Model:              hElasticLHEP: 0 eV  ---> 100.1 MeV
+        Model:              AntiAElastic: 100 MeV ---> 100 TeV
+     Cr_sctns:              AntiAGlauber: 0 eV  ---> 25.6 PeV
+  Process: anti_protonInelastic
+        Model:                      FTFP: 0 eV  ---> 100 TeV
+     Cr_sctns:              AntiAGlauber: 0 eV  ---> 25.6 PeV
+  Process: hFritiofCaptureAtRest
+-----------------------------------------------------------------------
+                           Hadronic Processes for anti_triton
+  Process: hadElastic
+        Model:              hElasticLHEP: 0 eV /n ---> 100.1 MeV/n
+        Model:              AntiAElastic: 100 MeV/n ---> 100 TeV/n
+     Cr_sctns:              AntiAGlauber: 0 eV  ---> 25.6 PeV
+  Process: anti_tritonInelastic
+        Model:                      FTFP: 0 eV /n ---> 100 TeV/n
+     Cr_sctns:              AntiAGlauber: 0 eV  ---> 25.6 PeV
+  Process: hFritiofCaptureAtRest
+-----------------------------------------------------------------------
+                           Hadronic Processes for deuteron
+  Process: hadElastic
+        Model:              hElasticLHEP: 0 eV /n ---> 100 TeV/n
+     Cr_sctns:  Glauber-Gribov Nucl-nucl: 0 eV  ---> 25.6 PeV
+  Process: dInelastic
+        Model:  Binary Light Ion Cascade: 0 eV /n ---> 6 GeV/n
+        Model:                      FTFP: 3 GeV/n ---> 100 TeV/n
+     Cr_sctns:        deuteronParticleXS: 0 eV  ---> 100 TeV
+-----------------------------------------------------------------------
+                           Hadronic Processes for e+
+  Process: positronNuclear
+        Model:   G4ElectroVDNuclearModel: 0 eV  ---> 1 PeV
+     Cr_sctns:          ElectroNuclearXS: 0 eV  ---> 100 TeV
+-----------------------------------------------------------------------
+                           Hadronic Processes for e-
+  Process: electronNuclear
+        Model:   G4ElectroVDNuclearModel: 0 eV  ---> 1 PeV
+     Cr_sctns:          ElectroNuclearXS: 0 eV  ---> 100 TeV
+-----------------------------------------------------------------------
+                           Hadronic Processes for gamma
+  Process: photonNuclear
+        Model:               GammaNPreco: 0 eV  ---> 200 MeV
+        Model:            BertiniCascade: 199 MeV ---> 6 GeV
+        Model:           TheoFSGenerator: 3 GeV ---> 100 TeV
+     Cr_sctns:            GammaNuclearXS: 0 eV  ---> 100 TeV
+-----------------------------------------------------------------------
+                           Hadronic Processes for kaon+
+  Process: hadElastic
+        Model:              hElasticLHEP: 0 eV  ---> 100 TeV
+     Cr_sctns:            Glauber-Gribov: 0 eV  ---> 100 TeV
+  Process: kaon+Inelastic
+        Model:                      FTFP: 3 GeV ---> 100 TeV
+        Model:            BertiniCascade: 0 eV  ---> 6 GeV
+     Cr_sctns:            Glauber-Gribov: 0 eV  ---> 100 TeV
+  Process: kaon+ChargeEx
+        Model:            ChargeExchange: 0 eV  ---> 100 TeV
+     Cr_sctns:                          : 0 eV  ---> 100 TeV
+-----------------------------------------------------------------------
+                           Hadronic Processes for kaon-
+  Process: hadElastic
+        Model:              hElasticLHEP: 0 eV  ---> 100 TeV
+     Cr_sctns:            Glauber-Gribov: 0 eV  ---> 100 TeV
+  Process: kaon-Inelastic
+        Model:                      FTFP: 3 GeV ---> 100 TeV
+        Model:            BertiniCascade: 0 eV  ---> 6 GeV
+     Cr_sctns:            Glauber-Gribov: 0 eV  ---> 100 TeV
+  Process: kaon-ChargeEx
+        Model:            ChargeExchange: 0 eV  ---> 100 TeV
+     Cr_sctns:                          : 0 eV  ---> 100 TeV
+  Process: hBertiniCaptureAtRest
+-----------------------------------------------------------------------
+                           Hadronic Processes for lambda
+  Process: hadElastic
+        Model:              hElasticLHEP: 0 eV  ---> 100 TeV
+     Cr_sctns:            Glauber-Gribov: 0 eV  ---> 100 TeV
+  Process: lambdaInelastic
+        Model:                      FTFP: 3 GeV ---> 100 TeV
+        Model:            BertiniCascade: 0 eV  ---> 6 GeV
+     Cr_sctns:            Glauber-Gribov: 0 eV  ---> 100 TeV
+-----------------------------------------------------------------------
+                           Hadronic Processes for mu+
+  Process: muonNuclear
+        Model:      G4MuonVDNuclearModel: 0 eV  ---> 1 PeV
+     Cr_sctns:     KokoulinMuonNuclearXS: 0 eV  ---> 100 TeV
+-----------------------------------------------------------------------
+                           Hadronic Processes for mu-
+  Process: muonNuclear
+        Model:      G4MuonVDNuclearModel: 0 eV  ---> 1 PeV
+     Cr_sctns:     KokoulinMuonNuclearXS: 0 eV  ---> 100 TeV
+  Process: muMinusCaptureAtRest
+-----------------------------------------------------------------------
+                           Hadronic Processes for pi+
+  Process: hadElastic
+        Model:           hElasticGlauber: 0 eV  ---> 100 TeV
+     Cr_sctns:  BarashenkovGlauberGribov: 0 eV  ---> 100 TeV
+  Process: pi+Inelastic
+        Model:                      FTFP: 3 GeV ---> 100 TeV
+        Model:            BertiniCascade: 1 GeV ---> 12 GeV
+        Model:            Binary Cascade: 0 eV  ---> 1.5 GeV
+     Cr_sctns:  BarashenkovGlauberGribov: 0 eV  ---> 100 TeV
+  Process: pi+ChargeEx
+        Model:            ChargeExchange: 0 eV  ---> 100 TeV
+     Cr_sctns:                          : 0 eV  ---> 100 TeV
+-----------------------------------------------------------------------
+                           Hadronic Processes for pi-
+  Process: hadElastic
+        Model:           hElasticGlauber: 0 eV  ---> 100 TeV
+     Cr_sctns:  BarashenkovGlauberGribov: 0 eV  ---> 100 TeV
+  Process: pi-Inelastic
+        Model:                      FTFP: 3 GeV ---> 100 TeV
+        Model:            BertiniCascade: 1 GeV ---> 12 GeV
+        Model:            Binary Cascade: 0 eV  ---> 1.5 GeV
+     Cr_sctns:  BarashenkovGlauberGribov: 0 eV  ---> 100 TeV
+  Process: pi-ChargeEx
+        Model:            ChargeExchange: 0 eV  ---> 100 TeV
+     Cr_sctns:                          : 0 eV  ---> 100 TeV
+  Process: hBertiniCaptureAtRest
+-----------------------------------------------------------------------
+                           Hadronic Processes for proton
+  Process: hadElastic
+        Model:             hElasticCHIPS: 0 eV  ---> 100 TeV
+     Cr_sctns:  BarashenkovGlauberGribov: 0 eV  ---> 100 TeV
+  Process: protonInelastic
+        Model:                      FTFP: 3 GeV ---> 100 TeV
+        Model:            BertiniCascade: 1 GeV ---> 6 GeV
+        Model:            Binary Cascade: 0 eV  ---> 1.5 GeV
+     Cr_sctns:  BarashenkovGlauberGribov: 0 eV  ---> 100 TeV
+-----------------------------------------------------------------------
+                           Hadronic Processes for sigma-
+  Process: hadElastic
+        Model:              hElasticLHEP: 0 eV  ---> 100 TeV
+     Cr_sctns:            Glauber-Gribov: 0 eV  ---> 100 TeV
+  Process: sigma-Inelastic
+        Model:                      FTFP: 3 GeV ---> 100 TeV
+        Model:            BertiniCascade: 0 eV  ---> 6 GeV
+     Cr_sctns:            Glauber-Gribov: 0 eV  ---> 100 TeV
+  Process: hBertiniCaptureAtRest
+-----------------------------------------------------------------------
+                           Hadronic Processes for triton
+  Process: hadElastic
+        Model:              hElasticLHEP: 0 eV /n ---> 100 TeV/n
+     Cr_sctns:  Glauber-Gribov Nucl-nucl: 0 eV  ---> 25.6 PeV
+  Process: tInelastic
+        Model:  Binary Light Ion Cascade: 0 eV /n ---> 6 GeV/n
+        Model:                      FTFP: 3 GeV/n ---> 100 TeV/n
+     Cr_sctns:          tritonParticleXS: 0 eV  ---> 25.6 PeV
+=======================================================================
+======       Geant4 Native Pre-compound Model Parameters       ========
+=======================================================================
+Type of pre-compound model                          0
+Type of pre-compound inverse x-section              1
+Pre-compound model active                           1
+Pre-compound excitation low energy                  0.1 MeV 
+Pre-compound excitation high energy                 15 MeV 
+Angular generator for pre-compound model            1
+Use NeverGoBack option for pre-compound model       0
+Use SoftCutOff option for pre-compound model        0
+Use CEM transitions for pre-compound model          1
+Use GNASH transitions for pre-compound model        0
+Use HETC submodel for pre-compound model            0
+=======================================================================
+======       Nuclear De-excitation Module Parameters           ========
+=======================================================================
+Type of de-excitation inverse x-section             3
+Type of de-excitation factory                       Evaporation+GEM
+Number of de-excitation channels                    68
+Type of Fermi BreakUp model                         ModelVI
+Min excitation energy                               0.01 keV 
+Min energy per nucleon for multifragmentation       2e+05 MeV
+Level density (1/MeV)                               0.075
+Use simple level density model                      1
+Use discrete excitation energy of the residual      0
+Time limit for long lived isomeres                  1 ns 
+Isomer production flag                              1
+Internal e- conversion flag                         1
+Store e- internal conversion data                   1
+Correlated gamma emission flag                      0
+Max 2J for sampling of angular correlations         10
+=======================================================================
+G4WT4 >      Cr_sctns:          tritonParticleXS: 0 eV  ---> 25.6 PeV
+Timepix detector: processed event 1000000
+G4WT3 >      Cr_sctns:          tritonParticleXS: 0 eV  ---> 25.6 PeV
+Timepix detector: processed event 2000000
+G4WT6 >      Cr_sctns:          tritonParticleXS: 0 eV  ---> 25.6 PeV
+Timepix detector: processed event 3000000
+G4WT3 > Timepix detector: processed event 4000000
+G4WT3 > Timepix detector: processed event 5000000
+G4WT15 >      Cr_sctns:          tritonParticleXS: 0 eV  ---> 25.6 PeV
+Timepix detector: processed event 6000000
+G4WT11 >      Cr_sctns:          tritonParticleXS: 0 eV  ---> 25.6 PeV
+Timepix detector: processed event 7000000
+G4WT14 >      Cr_sctns:          tritonParticleXS: 0 eV  ---> 25.6 PeV
+Timepix detector: processed event 8000000
+G4WT13 >      Cr_sctns:          tritonParticleXS: 0 eV  ---> 25.6 PeV
+Timepix detector: processed event 9000000
+G4WT10 >      Cr_sctns:          tritonParticleXS: 0 eV  ---> 25.6 PeV
+Timepix detector: processed event 10000000
+G4WT5 >      Cr_sctns:          tritonParticleXS: 0 eV  ---> 25.6 PeV
+Timepix detector: processed event 11000000
+G4WT15 > Timepix detector: processed event 12000000
+G4WT14 > Timepix detector: processed event 13000000
+G4WT7 >      Cr_sctns:          tritonParticleXS: 0 eV  ---> 25.6 PeV
+Timepix detector: processed event 14000000
+G4WT7 > Timepix detector: processed event 15000000
+G4WT3 > Timepix detector: processed event 16000000
+G4WT3 > Timepix detector: processed event 17000000
+G4WT1 >      Cr_sctns:          tritonParticleXS: 0 eV  ---> 25.6 PeV
+Timepix detector: processed event 18000000
+G4WT5 > Timepix detector: processed event 19000000
+G4WT11 > Timepix detector: processed event 20000000
+G4WT11 > Timepix detector: processed event 21000000
+G4WT0 >      Cr_sctns:          tritonParticleXS: 0 eV  ---> 25.6 PeV
+Timepix detector: processed event 22000000
+G4WT12 >      Cr_sctns:          tritonParticleXS: 0 eV  ---> 25.6 PeV
+Timepix detector: processed event 23000000
+G4WT12 > Timepix detector: processed event 24000000
+G4WT3 > Timepix detector: processed event 25000000
+G4WT11 > Timepix detector: processed event 26000000
+G4WT9 >      Cr_sctns:          tritonParticleXS: 0 eV  ---> 25.6 PeV
+Timepix detector: processed event 27000000
+G4WT6 > Timepix detector: processed event 28000000
+G4WT6 > Timepix detector: processed event 29000000
+G4WT13 > Timepix detector: processed event 30000000
+G4WT0 > Timepix detector: processed event 31000000
+G4WT4 > Timepix detector: processed event 32000000
+G4WT11 > Timepix detector: processed event 33000000
+G4WT11 > Timepix detector: processed event 34000000
+G4WT14 > Timepix detector: processed event 35000000
+G4WT11 > Timepix detector: processed event 36000000
+G4WT5 > Timepix detector: processed event 37000000
+G4WT11 > Timepix detector: processed event 38000000
+G4WT11 > Timepix detector: processed event 39000000
+G4WT11 > Timepix detector: processed event 40000000
+G4WT7 > Timepix detector: processed event 41000000
+G4WT1 > Timepix detector: processed event 42000000
+G4WT9 > Timepix detector: processed event 43000000
+G4WT5 > Timepix detector: processed event 44000000
+G4WT3 > Timepix detector: processed event 45000000
+G4WT10 > Timepix detector: processed event 46000000
+G4WT15 > Timepix detector: processed event 47000000
+G4WT5 > Timepix detector: processed event 48000000
+G4WT11 > Timepix detector: processed event 49000000
+G4WT11 > Timepix detector: processed event 50000000
+G4WT4 > Timepix detector: processed event 51000000
+G4WT9 > Timepix detector: processed event 52000000
+G4WT2 >      Cr_sctns:          tritonParticleXS: 0 eV  ---> 25.6 PeV
+Timepix detector: processed event 53000000
+G4WT3 > Timepix detector: processed event 54000000
+G4WT1 > Timepix detector: processed event 55000000
+G4WT4 > Timepix detector: processed event 56000000
+G4WT4 > Timepix detector: processed event 57000000
+G4WT12 > Timepix detector: processed event 58000000
+G4WT7 > Timepix detector: processed event 59000000
+G4WT11 > Timepix detector: processed event 60000000
+G4WT8 >      Cr_sctns:          tritonParticleXS: 0 eV  ---> 25.6 PeV
+Timepix detector: processed event 61000000
+G4WT7 > Timepix detector: processed event 62000000
+G4WT7 > Timepix detector: processed event 63000000
+G4WT10 > Timepix detector: processed event 64000000
+G4WT7 > Timepix detector: processed event 65000000
+G4WT9 > Timepix detector: processed event 66000000
+G4WT6 > Timepix detector: processed event 67000000
+G4WT6 > Timepix detector: processed event 68000000
+G4WT0 > Timepix detector: processed event 69000000
+G4WT13 > Timepix detector: processed event 70000000
+G4WT6 > Timepix detector: processed event 71000000
+G4WT1 > Timepix detector: processed event 72000000
+G4WT13 > Timepix detector: processed event 73000000
+G4WT1 > Timepix detector: processed event 74000000
+G4WT11 > Timepix detector: processed event 75000000
+G4WT0 > Timepix detector: processed event 76000000
+G4WT9 > Timepix detector: processed event 77000000
+G4WT9 > Timepix detector: processed event 78000000
+G4WT13 > Timepix detector: processed event 79000000
+G4WT15 > Timepix detector: processed event 80000000
+G4WT11 > Timepix detector: processed event 81000000
+G4WT6 > Timepix detector: processed event 82000000
+G4WT9 > Timepix detector: processed event 83000000
+G4WT0 > Timepix detector: processed event 84000000
+G4WT13 > Timepix detector: processed event 85000000
+G4WT11 > Timepix detector: processed event 86000000
+G4WT13 > Timepix detector: processed event 87000000
+G4WT13 > Timepix detector: processed event 88000000
+G4WT10 > Timepix detector: processed event 89000000
+G4WT1 > Timepix detector: processed event 90000000
+G4WT10 > Timepix detector: processed event 91000000
+G4WT6 > Timepix detector: processed event 92000000
+G4WT7 > Timepix detector: processed event 93000000
+G4WT2 > Timepix detector: processed event 94000000
+G4WT7 > Timepix detector: processed event 95000000
+G4WT6 > Timepix detector: processed event 96000000
+G4WT7 > Timepix detector: processed event 97000000
+G4WT10 > Timepix detector: processed event 98000000
+G4WT5 > Timepix detector: processed event 99000000
+G4WT7 > Timepix detector: processed event 100000000
+[TFile::Cp] Total 0.03 MB	|>...................| 0.00 % [0.0 MB/s][TFile::Cp] Total 0.03 MB	|====================| 100.00 % [157.6 MB/s]
+[TFile::Cp] Total 0.03 MB	|>...................| 0.00 % [0.0 MB/s][TFile::Cp] Total 0.03 MB	|====================| 100.00 % [213.5 MB/s]
+[TFile::Cp] Total 0.03 MB	|>...................| 0.00 % [0.0 MB/s][TFile::Cp] Total 0.03 MB	|====================| 100.00 % [224.4 MB/s]
+[TFile::Cp] Total 0.03 MB	|>...................| 0.00 % [0.0 MB/s][TFile::Cp] Total 0.03 MB	|====================| 100.00 % [297.4 MB/s]
+[TFile::Cp] Total 0.03 MB	|>...................| 0.00 % [0.0 MB/s][TFile::Cp] Total 0.03 MB	|====================| 100.00 % [298.1 MB/s]
+[TFile::Cp] Total 0.03 MB	|>...................| 0.00 % [0.0 MB/s][TFile::Cp] Total 0.03 MB	|====================| 100.00 % [307.2 MB/s]
+[TFile::Cp] Total 0.03 MB	|>...................| 0.00 % [0.0 MB/s][TFile::Cp] Total 0.03 MB	|====================| 100.00 % [290.6 MB/s]
+[TFile::Cp] Total 0.03 MB	|>...................| 0.00 % [0.0 MB/s][TFile::Cp] Total 0.03 MB	|====================| 100.00 % [591.0 MB/s]
+[TFile::Cp] Total 0.03 MB	|>...................| 0.00 % [0.0 MB/s][TFile::Cp] Total 0.03 MB	|====================| 100.00 % [595.8 MB/s]
+[TFile::Cp] Total 0.03 MB	|>...................| 0.00 % [0.0 MB/s][TFile::Cp] Total 0.03 MB	|====================| 100.00 % [588.3 MB/s]
+[TFile::Cp] Total 0.03 MB	|>...................| 0.00 % [0.0 MB/s][TFile::Cp] Total 0.03 MB	|====================| 100.00 % [595.8 MB/s]
+[TFile::Cp] Total 0.03 MB	|>...................| 0.00 % [0.0 MB/s][TFile::Cp] Total 0.03 MB	|====================| 100.00 % [570.9 MB/s]
+[TFile::Cp] Total 0.03 MB	|>...................| 0.00 % [0.0 MB/s][TFile::Cp] Total 0.03 MB	|====================| 100.00 % [594.0 MB/s]
+[TFile::Cp] Total 0.03 MB	|>...................| 0.00 % [0.0 MB/s][TFile::Cp] Total 0.03 MB	|====================| 100.00 % [846.5 MB/s]
+[TFile::Cp] Total 0.03 MB	|>...................| 0.00 % [0.0 MB/s][TFile::Cp] Total 0.03 MB	|====================| 100.00 % [736.8 MB/s]
+[TFile::Cp] Total 0.03 MB	|>...................| 0.00 % [0.0 MB/s][TFile::Cp] Total 0.03 MB	|====================| 100.00 % [871.3 MB/s]
+Merged 16 files -> SPECT.root
+Merged 16 CLOG files -> SPECT.clog
+MyROOTManager::ExportTH2DText: saved imageN -> imageN.txt
+MyROOTManager::ExportTH2DText: saved imageE -> imageE.txt

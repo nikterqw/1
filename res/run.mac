@@ -1,4 +1,0 @@
-# run.mac (batch)
-/run/initialize
-/control/execute GPS.mac
-/run/beamOn 100000000

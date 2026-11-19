@@ -1,0 +1,1 @@
+0	seed=0	metal=W	plate=10x10x1mm	angle=45deg	pos=(0,0,-5)cm	tube=(3.5355,0,-1.4645)cm	beam=80keV
