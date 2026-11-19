@@ -1,0 +1,20 @@
+# GPS.mac
+# Вариант 2: ЦИЛИНДР (параллельный пучок)
+# Источник в точке (-5.0, 0.0, -5.0) см.
+# Все фотоны летят строго вдоль оси +X (на пластину).
+
+/gps/source/clear
+/gps/source/add 1
+
+/gps/particle gamma
+/gps/ene/type Mono
+/gps/ene/mono 80.0 keV
+
+/gps/pos/type Point
+/gps/pos/centre -5.0 0.0 -5.0 cm
+
+# --- НАСТРОЙКА ПАРАЛЛЕЛЬНОГО ПУЧКА ---
+/gps/ang/type beam1d
+# Поворот оси пучка. Вектор направления: (+1.0, 0, 0) вдоль оси X.
+/gps/ang/rot1 0.0 1.0 0.0
+/gps/ang/rot2 0.0 0.0 1.0

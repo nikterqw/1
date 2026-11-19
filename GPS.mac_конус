@@ -1,0 +1,17 @@
+# GPS.mac - КОНУС (безопасный вариант)
+/gps/source/clear
+/gps/source/add 1
+
+/gps/particle gamma
+/gps/ene/type Mono
+/gps/ene/mono 80.0 keV
+
+/gps/pos/type Point
+/gps/pos/centre -5.0 0.0 -5.0 cm
+
+# Используем focused, но задаем телесный угол
+/gps/ang/type focused
+/gps/ang/focuspoint 0.0 0.0 -5.0 cm
+# Если mintheta > 0, пучок становится конусом вокруг фокусной точки!
+/gps/ang/mintheta 0 deg
+/gps/ang/maxtheta 15 deg
