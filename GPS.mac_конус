@@ -1,4 +1,7 @@
-# GPS.mac - КОНУС (безопасный вариант)
+# GPS.mac
+# Протяжённый пучок с угловым разбросом (гауссово распределение)
+# Пучок летит вдоль оси X (после поворота)
+
 /gps/source/clear
 /gps/source/add 1
 
@@ -9,9 +12,9 @@
 /gps/pos/type Point
 /gps/pos/centre -5.0 0.0 -5.0 cm
 
-# Используем focused, но задаем телесный угол
-/gps/ang/type focused
-/gps/ang/focuspoint 0.0 0.0 -5.0 cm
-# Если mintheta > 0, пучок становится конусом вокруг фокусной точки!
-/gps/ang/mintheta 0 deg
-/gps/ang/maxtheta 15 deg
+# Задаём направление пучка вдоль +X
+/gps/ang/type beam2d
+/gps/ang/rot1 0 0 1
+/gps/ang/rot2 0 1 0
+/gps/ang/sigma_x 5.0 deg
+/gps/ang/sigma_y 5.0 deg
