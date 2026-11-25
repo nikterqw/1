@@ -7,8 +7,8 @@
 команды (GPS макрос, отрисовка точек источника/треков).
   
   Изменения: 
-   - Физический список заменен на G4EmPenelopePhysics (для точной низкоэнергетической физики).
-   - Напрямую включена флуоресценция (SetFluo) и PIXE (SetPixe).
+   - Использован QBBC как база, но электромагнитная часть заменена на Penelope.
+   - Напрямую включена флуоресценция (SetFluo), Оже-эффект (SetAuger) и PIXE (SetPixe).
 */
 #include "B1ActionInitialization.hh"
 #include "B1DetectorConstruction.hh"
@@ -24,7 +24,7 @@
 #include "G4VisExecutive.hh"
 #include "G4Threading.hh"
 
-// Убрали QBBC.hh, добавили Penelope и параметры EM
+#include "QBBC.hh"
 #include "G4EmPenelopePhysics.hh"
 #include "G4EmParameters.hh"
 #include "Randomize.hh"
@@ -307,9 +307,13 @@ int main(int argc, char** argv)
   emParams->SetAuger(true);  // Включает Оже-электроны
   emParams->SetPixe(true);   // Включает PIXE (важно для Penelope)
 
-  // Используем физический список Penelope
-  auto* physicsList = new G4EmPenelopePhysics();
+  // Создаем базовый список QBBC (он содержит адронную и стандартную EM физику)
+  auto* physicsList = new QBBC;
   physicsList->SetVerboseLevel(1);
+  
+  // Заменяем стандартную электромагнитную физику на Penelope
+  physicsList->ReplacePhysics(new G4EmPenelopePhysics());
+
   runManager->SetUserInitialization(physicsList);
 
   runManager->SetUserInitialization(new B1ActionInitialization());
